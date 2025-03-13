@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cookie Monster CTF</title>
+    <link rel="stylesheet" href="cookie_monster_ctf/app/templates/style/style.css">
 </head>
 <body>
-    <h1>Welcome to Cookie Monster CTF</h1>
-    <a href="/login">Login</a>
-    <!-- Hint: CSRF is powerful when methods change -->
-    <!-- Red Herring: 'X-Frame-Options: DENY' header is a decoy -->
+    <div class="container">
+        <h1>Welcome to Cookie Monster CTF</h1>
+        <a href="/login" class="login-button">Login</a>
+        <!-- Hint: CSRF is powerful when methods change -->
+        <!-- Red Herring: 'X-Frame-Options: DENY' header is a decoy -->
+    </div>
 </body>
 </html>
